@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0cc5b389db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-box">
+        <div class="navbar">
+            <div class="left-btn box">
+                <i class="fa-solid fa-less-than"></i>
+            </div>
+             <div class="right-btn box">
+                <i class="fa-solid fa-bars"></i>
+             </div>
+        </div>
+         <div class="img-box">
+             <img src="muhammadh-saamy-GO1i2timuug-unsplash.jpg" alt="">
+         </div>
+         <div class="title">
+             <h1>Despacito</h1>
+             <p>Luis Fonsi Ft. puerto Rican</p>
+         </div>
+         <audio  class="audio" id="song">
+             <source src="c:\Users\ujjawal\Downloads\Gully Dreams - Hanu Dixit.mp3" type="audio/mpeg">
+         </audio>
+         <input type="range" value="0" id="progress">
+   
+        <div class="controls">
+            <div>
+            <i class="fa-solid fa-backward"></i>
+             </div>
+             <div>
+            <i class="fa-solid fa-play" id="ctrlicon"></i>
+            </div>
+              <div>
+            <i class="fa-solid fa-forward"></i>
+             </div>
+        </div>
+    </div>
+   <script src="app.js"></script>
+</body>
+</html>
